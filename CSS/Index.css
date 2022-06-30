@@ -1,0 +1,52 @@
+body{
+    background-image: url(../image/moeda.jpg);
+}
+.container, .container-fluid {
+    background-color: none;
+  }
+  
+  .btn-primary {
+    background-color: black;
+    color: aqua;
+    border-color: aqua;
+  }
+  .btn-secondary {
+    background-color: black;
+    color: aqua;
+    border-color: aqua;
+  }
+  
+  header {
+    color: aqua;
+    display: flex;
+    justify-content: space-around;
+    justify-items: space-around;
+  }
+
+  main {
+    background-image: url(../image/moeda.jpg);
+  }
+
+  @media screen and (max-width: 1920px) {
+    main {
+      height: 70vh;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    main {
+      height: 60vh;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    main {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    main {
+      background-color: var(--bs-warning);
+    }
+  }
