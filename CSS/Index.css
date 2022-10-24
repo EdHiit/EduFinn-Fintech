@@ -1,5 +1,7 @@
 body{
     background-image: url(../image/moeda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container, .container-fluid {
     background-color: none;
@@ -21,10 +23,6 @@ body{
     display: flex;
     justify-content: space-around;
     justify-items: space-around;
-  }
-
-  main {
-    background-image: url(../image/moeda.jpg);
   }
 
   @media screen and (max-width: 1920px) {
